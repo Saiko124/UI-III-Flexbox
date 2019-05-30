@@ -75,12 +75,12 @@ h1, h2, h3, h4, h5 {
 .major-head a{
 	display: flex;
 	list-style: none;
-	padding: 0;
+	padding: 20px;
 	align-items: center;
 	color: grey;
 	text-decoration: none;
-	display: block;
-	width: 85px;
+	justify-content: space-evenly;
+
 }
 
 
@@ -94,6 +94,12 @@ h1, h2, h3, h4, h5 {
 	width: 85px;
 } */
 
+.major-head a{
+	margin: 20px;
+	padding: 0 5px;
+
+}
+
 .major-head a:hover{
 	text-decoration: underline;
 }
@@ -102,10 +108,10 @@ h1, h2, h3, h4, h5 {
 display: block;
 }
 
-.major-head{
+/* .major-head{
 	display: flex;
 	justify-content: space-evenly;
-	padding: 20px;
+	padding: 20px; */
 
 }
 
@@ -185,7 +191,7 @@ display: block;
 }
 
 .contact p:nth-child(3){
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 
