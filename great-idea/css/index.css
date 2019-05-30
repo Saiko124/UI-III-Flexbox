@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5 {
 
 /* Top-heading */
 
-body{
+
+main{
 	width: 880px;
   margin: 0 auto;
 }
@@ -78,6 +79,7 @@ nav ul{
 	list-style: none;
 	padding: 0;
 	align-items: center;
+
 
 }
 
@@ -97,10 +99,74 @@ nav{
 	display: flex;
 	justify-content: space-evenly;
 	padding: 20px;
+	width: 100%;
+	margin-left: 50px
 }
 
 nav ul li a{
 	margin: 20px;
 	padding: 0 5px;
 
+}
+
+/* Main-Content */
+
+.main-content{
+	/* width: 880px;
+  margin: 0 auto; */
+	/* max-width: 880px; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+
+
+}
+
+.main-content .content-1{
+	width: 400px;
+
+}
+.content-2{
+	display: block;
+	width: 400px;
+
+}
+.content-3{
+	width: 400px;
+
+}
+/* .content-4{
+
+}
+.content-5{
+
+}
+.content-6{
+
+
+} */
+
+.main-content h3{
+
+}
+
+.main-content p{
+
+}
+
+
+.main-content button{
+
+}
+
+/* .main-content div{
+	border: 2px solid black;
+} */
+
+
+
+/* Bottom Content */
+.bottom-page{
+	display: flex;
 }
